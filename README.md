@@ -20,9 +20,9 @@ size_t mem_heapsize(void);
 size_t mem_pagesize(void);
 ```
 
--t <tracedir>: Look for trace files in the specified directory instead of the default directory defined in config.h.
--f <tracefile>: Use a specific trace file for testing instead of the default set of trace files.
--h: Print a summary of the command line arguments.
--l: Run and measure the standard malloc function in addition to the custom allocator.
--v: Verbose output. Print a performance breakdown for each trace file in a compact table.
--V: More verbose output. Print additional diagnostic information as each trace file is processed. This is useful for debugging and determining which trace file is causing issues with the allocator.
+*t <tracedir>: Look for trace files in the specified directory instead of the default directory defined in config.h.
+*f <tracefile>: Use a specific trace file for testing instead of the default set of trace files.
+*h: Print a summary of the command line arguments.
+*l: Run and measure the standard malloc function in addition to the custom allocator.
+*v: Verbose output. Print a performance breakdown for each trace file in a compact table.
+*V: More verbose output. Print additional diagnostic information as each trace file is processed. This is useful for debugging and determining which trace file is causing issues with the allocator.
